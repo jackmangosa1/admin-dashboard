@@ -4,3 +4,24 @@
 .homeContainer{
     flex: 6;
 }
+.widgets{
+    display: flex;
+    gap: 1.25rem;
+    padding: 1.25rem;
+}
+.charts{
+    display: flex;
+    gap: 1.25rem;
+    padding: 0.3rem 1.25rem;
+}
+.listContainer{
+    --webkit-box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.48);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.48);
+    padding: 1.25rem;
+    margin: 1.25rem;
+}
+.listTitle{
+    font-weight: 500;
+    color: gray;
+    margin-bottom: 0.9rem;
+}
