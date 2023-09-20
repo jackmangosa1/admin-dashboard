@@ -1,0 +1,71 @@
+.single{
+    display: flex;
+    width: 100%;
+}
+.singleContainer{
+    flex: 6;
+}
+.top{
+    display: flex;
+    gap: 1.25rem;
+    padding: 1.25rem;
+}
+.left{
+    position: relative;
+    flex:1;
+    --webkit-box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.48);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.48);
+    padding: 0.625rem;
+}
+.editButton{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.313rem;
+    font-size: 0.75rem;
+    color: #7451f8;
+    background-color: #7551f818;
+    cursor: pointer;
+    border-radius: 0px 0px 0px 5px;
+}
+.right{
+    flex: 2;
+}
+
+.item{
+    display: flex;
+    gap: 1.25rem;
+}
+.itemImg{
+    width: 6.25rem;
+    height: 6.25rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.itemTitle{
+    margin-bottom: 0.625rem;
+    color: #555;
+}
+.detailItem{
+    font-size: 0.875rem;
+    margin-bottom: 0.6rem;
+}
+.itemKey{
+    font-weight: bold;
+    color: gray;
+    margin-right: 0.4rem;
+}
+.itemValue{
+    font-weight: 300;
+}
+.bottom{
+    --webkit-box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.48);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.48);
+    padding: 0.625rem;
+    margin: 0.625rem 1.25rem;
+}
+.title{
+    font-size: 1rem;
+    margin-bottom: 1.25rem;
+    color: lightgray;
+}

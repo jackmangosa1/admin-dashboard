@@ -2,7 +2,7 @@ import React, { PureComponent } from 'react'
 import styles from "../styles/Chart.module.css"
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 
-const Chart = () => {
+const Chart = ({aspect, title}) => {
   const data = [
   {name: "January", total: 1200},
   {name: "February", total: 2100},
@@ -14,8 +14,8 @@ const Chart = () => {
 
   return (
     <div className={styles.chart}>
-      <div className={styles.title}>Last 6 months revenue</div>
-      <ResponsiveContainer width="100%" aspect={2 / 1}>
+      <div className={styles.title}>{title}</div>
+      <ResponsiveContainer width="100%" aspect={aspect}>
         <AreaChart
           width={500}
           height={400}
