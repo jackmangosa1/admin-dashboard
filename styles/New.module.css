@@ -1,0 +1,73 @@
+.new{
+    display: flex;
+    width: 100%;
+}
+.newContainer{
+    flex: 6;
+}
+.top, .bottom{
+    --webkit-box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.48);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.48);
+    padding: 0.625rem;
+    margin: 1.25rem;
+    display: flex;
+}
+.title{
+    color: lightgray;
+    font-size: 1.25rem;
+}
+.left{
+    flex: 1;
+    text-align: center;
+}
+.image{
+    border-radius: 50%;
+    object-fit: cover;
+}
+.right{
+    flex: 2;
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    justify-content: space-around; 
+}
+.formInput{
+    width: 40%;
+}
+.formInput :nth-child(2){
+    width: 100%;
+    padding: 0.313rem;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.uploadLabel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+    padding: 0.5rem;
+    border: 1px solid teal;
+    width: 10rem;
+    border-radius: 0.3rem ;
+}
+
+.fileLabel{
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+}
+.icon{
+    cursor: pointer;
+}
+.button{
+    width: 9.375rem;
+    padding: 0.625rem;
+    border: none;
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 0.625rem;
+}
